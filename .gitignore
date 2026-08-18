@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.idea/
+
+# Generated model artifacts
+models/*.joblib
+models/*.pkl
+
+# Generated reports
+reports/*.json
+reports/*.png
+
+# Keep source data unless explicitly allowed
+# data/*.csv
